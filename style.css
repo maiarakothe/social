@@ -92,3 +92,75 @@ h1 {
 footer {
     text-align: center;
 }
+
+
+@media screen and (min-width: 375px) {
+        body {
+            background-image: url('images/bg-pattern-top-desktop.svg'), url(images/bg-pattern-bottom-desktop.svg);
+            background-position: top left, bottom right;
+            margin: auto;
+            margin-left: 190px;
+            background-attachment: fixed; 
+            overflow-y: hidden; /* oculta a barra de rolagem vertical */
+            
+        }
+    
+        .estrela, .pessoas {
+            flex-direction: row;
+            justify-content: center;
+            gap: 40px;
+            width: 400px;
+        }
+    
+        
+        h1 {
+            text-align: left;
+            width: 300px;
+            
+        }
+    
+        #paragrafo {
+            width: 500px;
+            text-align: left;
+        }
+
+        #texto {
+            position: absolute;
+        }
+
+        #comentarios {
+            width: 600px;
+            align-items: right;
+            margin-left: 570px;
+            margin-top: 90px;
+        }
+
+        .um {
+            margin-right: 70px;
+        }
+
+        .dois {
+            margin-left: 80px;
+        }
+
+        .tres {
+            margin-left: 150px;
+        }
+
+        .pessoas {
+            width: 280px;
+            height: 190px;
+        }
+        .container {
+            display: flex;
+            flex-direction: row;
+            margin-top: 90px;
+        }
+
+        .pessoa2 {
+            margin-top: 40px;
+        }
+        .pessoa3 {
+            margin-top: 60px;
+        }
+    }
