@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(images/bg-pattern-top-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: top top;
+    font-family: "League Spartan", sans-serif;
+    Font-size: 15px;
+}
+
+h1 {
+   color: hsl(300, 43%, 22%);
+   text-align: center;
+    padding: 40px;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+#paragrafo {
+    font-weight: 400;
+    color: hsl(303, 10%, 53%);
+    font-size: 19px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+}
+
+.estrela {
+    background-color: hsl(300, 24%, 96%);
+    color: hsl(300, 43%, 22%);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px; 
+    margin: 20px;
+    padding: 20px;
+    font-weight: 700;
+}
+
+
+.pessoas {
+    background-color:  hsl(300, 43%, 22%);
+    margin: 20px;
+    color: white;
+    padding: 30px;
+    font-size: 16px;
+    border-radius: 5px;
+
+}
+
+.foto {
+   border-radius: 50px;
+}
+
+.conteudo {
+    display: flex;
+    gap: 10px;
+}
+
+.detalhes {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    font-weight: 400;
+    padding-left: 20px;
+
+}
+
+.detalhes > h2 {
+    font-size: 18px;
+}
+
+.detalhes > strong {
+    color: hsl(333, 80%, 67%);
+    font-weight: 400;
+    padding-top: 5px;
+}
+
+.pessoas > p {
+    padding-top: 20px;
+    font-size: 16px;
+}
+
+footer {
+    text-align: center;
+}
